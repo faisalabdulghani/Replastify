@@ -18,6 +18,7 @@
     <!-- <link rel="stylesheet" href="../../tailwind-css/tailwind-runtime.css" /> -->
     <link rel="stylesheet" href="./css/tailwind-build.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="./css/footerstyel.css" />
 
     <link
       rel="stylesheet"
@@ -42,9 +43,17 @@
         <img
           src="./assets/logo.png"
           alt="logo"
-          class="tw-h-full tw-w-full tw-object-contain"
+          style="
+            height: 150px;
+            width: 150px;
+            object-fit: contain;
+
+            padding-top: 40px;
+          "
         />
-        <p class="tw-min-w-fit tw-text-lg max-md:tw-text-sm">Project Africa</p>
+        <p class="tw-min-w-fit tw-text-lg max-md:tw-text-sm tw-mt-10">
+          Replastify
+        </p>
       </a>
       <div
         class="collapsible-header animated-collapse max-lg:tw-shadow-md"
@@ -53,10 +62,11 @@
         <div
           class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base max-lg:tw-mt-[30px] max-lg:tw-flex-col max-lg:tw-place-items-end max-lg:tw-gap-5 lg:tw-mx-auto lg:tw-place-items-center"
         >
-          <a class="header-links" href=""> Home </a>
-          <a class="header-links" href="./event.html"> Causes </a>
-          <a class="header-links" href=""> Donate </a>
-          <a class="header-links" href=""> Contact </a>
+          <a class="header-links" href="./index.html"> Home </a>
+          <a class="header-links" href="./event.html"> Events </a>
+          <a class="header-links" href="./services.html">Services </a>
+          <a class="header-links" href="./services.html">Our Mission </a>
+          <a class="header-links" href="./contact.html"> Contact </a>
         </div>
         <div
           class="tw-mx-4 tw-flex tw-place-items-center tw-gap-[20px] tw-text-base max-md:tw-w-full max-md:tw-flex-col max-md:tw-place-content-center"
@@ -66,7 +76,7 @@
             aria-label="signup"
             class="tw-flex tw-h-[40px] tw-place-items-center tw-gap-2 tw-bg-secondary tw-p-1 tw-px-4 tw-text-black"
           >
-            <span>Donate</span>
+            <span>Awareness</span>
           </a>
         </div>
       </div>
@@ -154,60 +164,59 @@
         </div>
       </div>
     </section>
-    <footer
-      class="tw-relative tw-flex tw-w-full tw-place-content-around tw-gap-3 tw-bg-primary tw-px-[10%] tw-pb-4 tw-pt-[5%] tw-text-white"
-    >
-      <div class="tw-relative tw-flex tw-h-full tw-w-full tw-flex-col tw-gap-2">
-        <div
-          class="tw-my-2 tw-flex tw-w-full tw-place-content-around tw-gap-3 max-md:tw-flex-col"
-        >
-          <div
-            class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-place-items-center tw-gap-6 max-md:tw-w-full"
-          >
-            <img src="./assets/logo.png" alt="logo" class="tw-w-[150px]" />
-            <div>
-              12111 Cypress,
-              <br />
-              TX,
-              <br />
-              Europe
-            </div>
-          </div>
-
-          <div class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-gap-4">
-            <h2 class="tw-text-3xl max-md:tw-text-xl">Causes</h2>
-            <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
-              <a href="" class="footer-link">Food</a>
-              <a href="" class="footer-link">Hospital</a>
-              <a href="" class="footer-link">Education</a>
-              <a href="" class="footer-link">Wildlife</a>
-            </div>
-          </div>
-          <div class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-gap-4">
-            <h2 class="tw-text-3xl max-md:tw-text-xl">Resources</h2>
-            <div class="tw-flex tw-flex-col tw-gap-3 max-md:tw-text-sm">
-              <a href="" class="footer-link">About us</a>
-              <a href="" class="footer-link">FAQ</a>
-              <a href="" class="footer-link">Contact Us</a>
-              <a href="" class="footer-link">Locations</a>
-              <a href="" class="footer-link">Privacy policy</a>
-            </div>
-          </div>
+    <footer class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./event.html">Events</a></li>
+            <li><a href="./services.html">Service</a></li>
+            <li><a href="./mission.html">Our Mission</a></li>
+            <li><a href="./awareness.html">Awareness</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+          </ul>
         </div>
-        <div class="tw-h-[1px] tw-w-[100%] tw-bg-white"></div>
-
-        <div class="tw-mt-3 tw-flex tw-gap-4 tw-text-xl">
-          <a href="" aria-label="Facebook">
-            <i class="bi bi-facebook"></i>
-          </a>
-          <a href="https://twitter.com/pauls_freeman" aria-label="Twitter">
-            <i class="bi bi-twitter"></i>
-          </a>
-          <a href="https://instagram.com/" aria-label="Instagram">
-            <i class="bi bi-instagram"></i>
-          </a>
+        <div>
+          <img
+            src="/assets//logo.png"
+            width="200px"
+            height="200px"
+            class="tw-m-8"
+          />
+          <p class="tw-text-white">Street 1 Paris Road Sialkot. Pakistan</p>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>
+            Subscribe to our newsletter for a weekly dose of news, updates,
+            helpful tips, and exclusive offers.
+          </p>
+          <form action="#">
+            <input type="text" placeholder="Your email" required />
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+          <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
         </div>
       </div>
+
+      <div class="tw-mt-3 tw-flex tw-gap-4 tw-text-xl tw-bg-white tw-mr-10">
+        <a href="" aria-label="Facebook">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://twitter.com/pauls_freeman" aria-label="Twitter">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://instagram.com/" aria-label="Instagram">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+      <div class="tw-h-[1px] tw-w-[100%] tw-bg-white"></div>
     </footer>
   </body>
 </html>
