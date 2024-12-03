@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Africa</title>
+    <meta name="description" content="" />
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Title of the project" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://github.com/PaulleDemon" />
+    <!--Replace with the current website url-->
+    <meta property="og:image" content="" />
+
+    <!-- <link rel="stylesheet" href="../../tailwind-css/tailwind-runtime.css" /> -->
+    <link rel="stylesheet" href="./css/tailwind-build.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="./css/footerstyel.css" />
+    <link rel="stylesheet" href="./missionResponsive.css" />
+    <link rel="stylesheet" href="./mission.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+      integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="tw-flex tw-min-h-[100vh] tw-flex-col tw-bg-[] tw-font-mono">
+    <header
+      class="tw-absolute tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full !tw-bg-primary tw-bg-opacity-0 tw-px-[5%] tw-text-white max-lg:tw-mr-auto max-lg:tw-px-4 lg:tw-justify-around"
+    >
+      <a
+        class="tw-flex tw-h-[50px] tw-min-w-fit tw-place-items-center tw-gap-5 tw-p-[4px] tw-text-2xl tw-font-medium"
+        href=""
+      >
+        <!-- <img
+          src="./assets/logo.png"
+          alt="logo"
+          style="
+            height: 150px;
+            width: 150px;
+            object-fit: contain;
+
+            padding-top: 40px;
+          "
+        /> -->
+        <p class="tw-min-w-fit tw-text-lg max-md:tw-text-sm tw-mt-5">
+          Replastify
+        </p>
+      </a>
+      <div
+        class="collapsible-header animated-collapse max-lg:tw-shadow-md"
+        id="collapsed-header-items"
+      >
+        <div
+          class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base max-lg:tw-mt-[30px] max-lg:tw-flex-col max-lg:tw-place-items-end max-lg:tw-gap-5 lg:tw-mx-auto lg:tw-place-items-center"
+        >
+          <a class="header-links" href="./index.html"> Home </a>
+          <a class="header-links" href="./event.html"> Events </a>
+          <a class="header-links" href="./services.html">Services </a>
+          <a class="header-links" href="./services.html">Our Mission </a>
+          <a class="header-links" href="./contact.html"> Contact </a>
+        </div>
+        <div
+          class="tw-mx-4 tw-flex tw-place-items-center tw-gap-[20px] tw-text-base max-md:tw-w-full max-md:tw-flex-col max-md:tw-place-content-center"
+        >
+          <a
+            href="https://tally.so/r/woO0Kx"
+            aria-label="signup"
+            class="tw-flex tw-h-[40px] tw-place-items-center tw-gap-2 tw-bg-secondary tw-p-1 tw-px-4 tw-text-black"
+          >
+            <span>Awareness</span>
+          </a>
+        </div>
+      </div>
+      <button
+        class="bi bi-list tw-absolute tw-right-3 tw-top-3 tw-z-50 tw-text-3xl tw-text-white lg:tw-hidden"
+        onclick="toggleHeader()"
+        aria-label="menu"
+        id="collapse-btn"
+      ></button>
+    </header>
+
+    <div class="responsive-container-block bigContainer">
+      <div class="responsive-container-block Container">
+        <img
+          class="mainImg"
+          src="./assets/awareness.jpg"
+        />
+        <div class="allText aboveText">
+          <p class="text-blk headingText">Our mission at Replastify</p>
+          <p class="text-blk subHeadingText">
+            "We aim to build a sustainable culture, prioritizing decisions that ensure a better future for generations to come."
+          </p>
+          <p class="text-blk description">
+            Educate and raise awareness about the environmental impacts of
+            plastic waste. Encourage individuals and organizations to reduce
+            their plastic consumption. Promote and implement efficient recycling
+            practices within communities. Organize campaigns and events to
+            engage people.
+          </p>
+        </div>
+      </div>
+      <div class="responsive-container-block Container bottomContainer">
+        <img
+          class="mainImg"
+          src="./assets/awarness.png"
+        />
+        <div class="allText bottomText">
+          <p class="text-blk headingText">Our Vision</p>
+          <p class="text-blk subHeadingText">
+            We envision a world where plastic waste no longer poses a threat to
+            our environment and ecosystems.
+          </p>
+          <p class="text-blk description">
+            Empower people everywhere to rethink their relationship with
+            plastic, turning waste into opportunities for positive change. By
+            inspiring a shift in mindset and behavior, we aim to make
+            sustainability a shared value that drives transformative impact
+            globally.
+          </p>
+        </div>
+      </div>
+      <div class="responsive-container-block Container">
+        <img
+          class="mainImg"
+          src="./assets/awareness.png"
+        />
+        <div class="allText aboveText">
+          <p class="text-blk headingText">Our Approach</p>
+          <p class="text-blk subHeadingText">
+            Hosting educational workshops, seminars, and online campaigns to inform people about the environmental hazards of plastic waste and how they can contribute to reducing it.
+
+          </p>
+          <p class="text-blk description">
+            Organizing cleanup drives, recycling challenges, and exhibitions to showcase the importance of reducing plastic use and innovating recycling techniques.
+Innovative Solutions: Promoting the adoption of eco-friendly alternatives to single-use plastics and encouraging the circular economy by transforming waste into valuable resources.
+          </p>
+          
+        </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./event.html">Events</a></li>
+            <li><a href="./services.html">Service</a></li>
+            <li><a href="./mission.html">Our Mission</a></li>
+            <li><a href="./awareness.html">Awareness</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <img
+            src="/assets//logo.png"
+            width="200px"
+            height="200px"
+            class="tw-m-8"
+          />
+          <p class="tw-text-white">Street 1 Paris Road Sialkot. Pakistan</p>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>
+            Subscribe to our newsletter for a weekly dose of news, updates,
+            helpful tips, and exclusive offers.
+          </p>
+          <form action="#">
+            <input type="text" placeholder="Your email" required />
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+          <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="tw-mt-3 tw-flex tw-gap-4 tw-text-xl tw-bg-white tw-mr-10">
+        <a href="" aria-label="Facebook">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://twitter.com/pauls_freeman" aria-label="Twitter">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://instagram.com/" aria-label="Instagram">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+      <div class="tw-h-[1px] tw-w-[100%] tw-bg-white"></div>
+    </footer>
+  </body>
+</html>
