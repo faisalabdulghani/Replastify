@@ -1,0 +1,57 @@
+@media (max-width: 768px) {
+    .tw-w-full {
+      width: 100%;
+    }
+  
+    .tw-h-full {
+      height: auto;
+    }
+  
+    .tw-object-cover {
+      object-fit: cover;
+    }
+  
+    .tw-px- {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .tw-text-2xl {
+      font-size: 1.5rem;
+    }
+  
+    .tw-text-lg {
+      font-size: 1.125rem;
+    }
+  
+    .tw-mt-10 {
+      margin-top: 1rem;
+    }
+  
+    .tw-p-4 {
+      padding: 16px;
+    }
+  
+    .footer-row {
+      flex-direction: column;
+    }
+  
+    .footer-col {
+      margin-bottom: 1rem;
+    }
+  
+    .header-links {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    /* Styles for larger screens (Tablet and above) */
+    .tw-w {
+      width: 30%;
+    }
+    .tw-text-2xl {
+      font-size: 2rem;
+    }
+  }
+  
